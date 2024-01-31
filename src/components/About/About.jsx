@@ -22,9 +22,12 @@ const ShapeOverlay = styled.div`
 `;
 
 const Text = styled.div`
-    margin-left: 10em;
-    z-index: 2;
+    margin-bottom: 3em;
 `
+
+const Content = styled.div`
+margin-left: 10em;
+z-index: 2;`
 
 const Image = styled.img`
     width: 28em;
@@ -48,11 +51,13 @@ const About = () => {
         <Container className="fade">
             <ShapeOverlay/>
             <Image src="https://github.com/NatanVilasBoas.png" alt="" />
-            <Text style={{ color: 'white' }}>
-                <h3 style={{ fontSize: '40px' }}>Sobre mim</h3>
-                <p style={{ fontFamily: 'poppins', fontWeight: '300' }}>Sou programador e designer, tenho muito apreço pelas áreas por ter a chance de criar coisas que realmente venham ser úteis e que auxiliem meus clientes, criando projetos com um olhar mais detalhista envolto não apenas na usabilidade do projeto, mas na experiência do usuário e no conforto visual também</p>
-            <Button text="currículo" color="#301E67" colorLight="#6a5bcd"/>
-            </Text>
+            <Content>
+                <Text style={{ color: 'white' }}>
+                    <h3 style={{ fontSize: '40px' }}>Sobre mim</h3>
+                    <p style={{ fontFamily: 'poppins', fontWeight: '300' }}>Sou programador e designer, tenho muito apreço pelas áreas por ter a chance de criar coisas que realmente venham ser úteis e que auxiliem meus clientes, criando projetos com um olhar mais detalhista envolto não apenas na usabilidade do projeto, mas na experiência do usuário e no conforto visual também</p>
+                </Text>
+                <Button text="currículo" color="#301E67" colorLight="#6a5bcd" padding="12px 32px"/>
+            </Content>
         </Container>
     )
 }
