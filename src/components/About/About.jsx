@@ -51,7 +51,7 @@ const About = () => {
             <Text style={{ color: 'white' }}>
                 <h3 style={{ fontSize: '40px' }}>Sobre mim</h3>
                 <p style={{ fontFamily: 'poppins', fontWeight: '300' }}>Sou programador e designer, tenho muito apreço pelas áreas por ter a chance de criar coisas que realmente venham ser úteis e que auxiliem meus clientes, criando projetos com um olhar mais detalhista envolto não apenas na usabilidade do projeto, mas na experiência do usuário e no conforto visual também</p>
-            <Button text="Meu currículo"/>
+            <Button text="currículo" color="#301E67" colorLight="#6a5bcd"/>
             </Text>
         </Container>
     )

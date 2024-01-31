@@ -3,22 +3,13 @@ import styles from "./Button.module.css";
 const Button = (props) => {
     return (
         <>
-            <button className={`${styles.cButton} ${styles.cButtonGooey}`}> {props.text}
-                <div className={styles.cButton__blobs}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+            <button className={styles.pushable} style={{outlineColor: `${props.color}`}}>
+                <span className={styles.shadow} style={{background: `${props.color}`}}></span>
+                <span className={styles.edge} style={{background: `${props.color}`}}></span>
+                <span className={styles.front} style={{background: `${props.colorLight}`}}>
+                    {props.text}
+                </span>
             </button>
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style={{display: "block", height: "0", width: "0"}}>
-                <defs>
-                    <filter id="goo">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
-                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
-                        <feBlend in="SourceGraphic" in2="goo"></feBlend>
-                    </filter>
-                </defs>
-            </svg>
         </>
     )
 }
