@@ -42,7 +42,7 @@ const Begin = () => {
 
     return(
         <Container>
-            <Title className="inicio">Olá, meu nome é <strong style={{color:"#B6EADA"}}>Natan.</strong></Title>
+            <Title className="inicio">Olá, meu nome é <strong style={{color:"#B6EADA"}}>Natan Vilas Boas.</strong></Title>
             <Title className="inicio-second">Sou desenvolvedor Web</Title>
         </Container>
     )
