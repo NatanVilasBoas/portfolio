@@ -28,7 +28,7 @@ const Begin = () => {
             origin: 'bottom',
             opacity: 0,
             easing: 'ease-in-out',
-            reset: true, // Define se a animação deve ser redefinida ao rolar para cima
+            reset: false, // Define se a animação deve ser redefinida ao rolar para cima
           });
 
           ScrollReveal().reveal('.inicio-second', {
@@ -37,14 +37,13 @@ const Begin = () => {
             origin: 'bottom',
             opacity: 0,
             easing: 'ease-in-out',
-            reset: true,
           });
         }, []);
 
     return(
         <Container>
-            <Title className="inicio">Olá, meu nome é <strong style={{color:"#B6EADA"}}>Natan!</strong></Title>
-            <Title className="inicio-second">Sou desenvolvedor Web.</Title>
+            <Title className="inicio">Olá, meu nome é <strong style={{color:"#B6EADA"}}>Natan.</strong></Title>
+            <Title className="inicio-second">Sou desenvolvedor Web</Title>
         </Container>
     )
 }
