@@ -53,20 +53,20 @@ const CardProject = (props) => {
     return (
         <Card className="card">
             <div>
-                <Image src="https://fakeimg.pl/600x400" />
+                <Image src={props.image} />
             </div>
             <CardText>
-                <Title>{props.title}Projeto 1</Title>
-                <Text>{props.text}Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt fugit, nisi minima illo totam quibusdam perferendis facilis, dignissimos adipisci ab autem a ipsa voluptatem numquam ipsum veniam molestiae, distinctio beatae!</Text>
+                <Title>{props.title}</Title>
+                <Text>{props.text}</Text>
                 <ButtonContainer>
-                    <a href={props.codeLink}>
+                    <a href={props.codeLink} target="_blank" rel="noreferrer">
                         <Button text="Veja o código"
                             color="#53738D"
                             colorLight="#5B8FB9"
                             padding="12px 18px"
                         />
                     </a>
-                    <a href={props.link}>
+                    <a href={props.link} target="_blank" rel="noreferrer">
                         <Button text="Acesse o site"
                             color="#301E67"
                             colorLight="#6a5bcd"

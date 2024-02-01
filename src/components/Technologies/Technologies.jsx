@@ -26,16 +26,16 @@ const Technologies = () => {
         <>
             <TitleSection title="Tecnologias com as quais trabalho" />
             <Container className="fade">
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-css3-plain"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-php-plain"></i>
-                <i class="devicon-mysql-plain"></i>
-                <i class="devicon-laravel-plain"></i>
-                <i class="devicon-react-original"></i>
-                <i class="devicon-bootstrap-plain"></i>
-                <i class="devicon-photoshop-plain"></i>
-                <i class="devicon-illustrator-plain"></i>
+                <i className="devicon-html5-plain"></i>
+                <i className="devicon-css3-plain"></i>
+                <i className="devicon-javascript-plain"></i>
+                <i className="devicon-php-plain"></i>
+                <i className="devicon-mysql-plain"></i>
+                <i className="devicon-laravel-plain"></i>
+                <i className="devicon-react-original"></i>
+                <i className="devicon-bootstrap-plain"></i>
+                <i className="devicon-photoshop-plain"></i>
+                <i className="devicon-illustrator-plain"></i>
             </Container>
         </>
     )
