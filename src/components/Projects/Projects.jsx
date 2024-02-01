@@ -2,6 +2,7 @@ import styled from "styled-components";
 import CardProject from "./CardProject";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
+import TitleSection from "../TitleSection/TitleSection";
 
 const Container = styled.section`
     display: flex;
@@ -12,19 +13,9 @@ const Container = styled.section`
 
 const Projects = () => {
 
-    useEffect(() => {
-        ScrollReveal().reveal('.title', {
-            delay: 200,
-            distance: '20px',
-            origin: 'bottom',
-            opacity: 0,
-            easing: 'ease-in-out',
-          });
-    })
-
     return (
         <>
-            <h1 className="title" style={{ fontSize: '42px', marginLeft: '1em' }}>Meus projetos</h1>
+            <TitleSection title="Meus projetos"/>
             <Container>
                 <CardProject />
                 <CardProject />

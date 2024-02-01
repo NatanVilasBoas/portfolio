@@ -24,7 +24,7 @@ const Text = styled.p`
     font-family: 'Poppins';
 `
 
-const CardText = styled.p`
+const CardText = styled.div`
     margin: 1.1em;
 `
 

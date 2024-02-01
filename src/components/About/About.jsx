@@ -6,6 +6,7 @@ import Button from "../Button/Button";
 const Container = styled.section`
     display: flex;
     align-items: center;
+    flex-wrap: wrap; 
     justify-content: space-between;
     padding: 3em;
     overflow: hidden;
