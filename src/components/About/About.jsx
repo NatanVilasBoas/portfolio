@@ -7,7 +7,7 @@ const Container = styled.section`
     display: flex;
     align-items: center;
     flex-wrap: wrap; 
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 3em;
     overflow: hidden;
     margin-bottom: 12em;
@@ -28,11 +28,13 @@ const Text = styled.div`
 `
 
 const Content = styled.div`
-margin-left: 10em;
-z-index: 2;`
+    margin-left: 10em;
+    width: 50%;
+    z-index: 2;
+`
 
 const Image = styled.img`
-    width: 28em;
+    width: 32vw;
     margin-left: 3em;
     z-index: 2;
 `
