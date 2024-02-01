@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import CardProject from "./CardProject";
-import { useEffect } from "react";
-import ScrollReveal from "scrollreveal";
 import TitleSection from "../TitleSection/TitleSection";
 
 const Container = styled.section`
