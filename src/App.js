@@ -3,6 +3,7 @@ import Begin from "./components/Begin/Begin";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Technologies from "./components/Technologies/Technologies";
 
 const Container = styled.div`
   background-color: #03001C;
@@ -13,8 +14,9 @@ function App() {
     <Container> 
       <Begin/>
       <About/>
-      <Projects/>
       <Contact/>
+      <Projects/>
+      <Technologies />
     </Container>
   );
 }
