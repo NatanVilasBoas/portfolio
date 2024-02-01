@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const Container = styled.section`
     width: 100%;
     height: 100%;
-    color: white;
     padding: 19em 3em;
     display: flex;
     flex-direction: column;

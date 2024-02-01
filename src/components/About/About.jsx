@@ -9,6 +9,7 @@ const Container = styled.section`
     justify-content: space-between;
     padding: 3em;
     overflow: hidden;
+    margin-bottom: 12em;
 `
 const ShapeOverlay = styled.div`
     position: absolute;
@@ -52,9 +53,9 @@ const About = () => {
             <ShapeOverlay/>
             <Image src="https://github.com/NatanVilasBoas.png" alt="" />
             <Content>
-                <Text style={{ color: 'white' }}>
+                <Text>
                     <h3 style={{ fontSize: '40px' }}>Sobre mim</h3>
-                    <p style={{ fontFamily: 'poppins', fontWeight: '300' }}>Sou programador e designer, tenho muito apreço pelas áreas por ter a chance de criar coisas que realmente venham ser úteis e que auxiliem meus clientes, criando projetos com um olhar mais detalhista envolto não apenas na usabilidade do projeto, mas na experiência do usuário e no conforto visual também</p>
+                    <p style={{ fontFamily: 'poppins', fontWeight: '300' }}>Sou programador e designer a mais de 2 anos. Tenho muito apreço pelas áreas por me darem a chance de criar coisas que realmente são úteis e que auxiliem meus clientes, criando projetos com um olhar mais detalhista envolto não apenas na usabilidade do projeto, mas na experiência do usuário e na qualidade do produto</p>
                 </Text>
                 <a href="./Curriculo.pdf" target="_blank">
                     <Button text="currículo" color="#301E67" colorLight="#6a5bcd" padding="12px 32px"/>
