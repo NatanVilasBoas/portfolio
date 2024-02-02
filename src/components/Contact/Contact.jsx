@@ -12,6 +12,7 @@ const Container = styled.section`
     justify-content: space-around;
     margin: 0 3em;
     padding: 2em 0;
+    flex-wrap: wrap; 
 `
 
 const Link = styled.a`

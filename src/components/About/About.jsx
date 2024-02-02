@@ -28,14 +28,12 @@ const Text = styled.div`
 `
 
 const Content = styled.div`
-    margin-left: 10em;
     width: 50%;
     z-index: 2;
 `
 
 const Image = styled.img`
-    width: 32vw;
-    margin-left: 3em;
+    width: 30vw;
     z-index: 2;
 `
 

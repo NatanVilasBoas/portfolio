@@ -25,11 +25,11 @@ const Text = styled.p`
 `
 
 const CardText = styled.div`
-    margin: 1.1em;
+    margin: 1.1vw;
 `
 
 const Image = styled.img`
-    width: 32.5em;
+    width: 35vw;
     border-radius: 24px;
 `
 
