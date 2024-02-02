@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Container = styled.section`
     width: 100%;
     height: 100%;
-    padding: 19em 3em;
+    padding: 30vh 3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,14 +22,18 @@ const Button = styled.button`
 const ButtonTop = styled(Button)`
   position: fixed;
   z-index: 4;
-  bottom: 5%;
-  right: 5%;
+  bottom: 2%;
+  right: 2%;
   margin-right: 18px;
 `
 
 const Title = styled.p`
-    font-size: 56px;
+    font-size: 4vw;
     margin: 5px 0 5px 0;
+
+    @media (max-width: 768px) {
+      font-size: 6vw;
+    }
 `
 
 const Begin = () => {
@@ -49,7 +53,7 @@ const Begin = () => {
 
   const scrollBottom = () => {
     window.scrollTo({
-      top: window.innerHeight * 1.2,
+      top: window.innerHeight,
       behavior: 'smooth',
     });
   }

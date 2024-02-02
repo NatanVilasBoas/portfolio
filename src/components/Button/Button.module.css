@@ -74,3 +74,9 @@
     outline: none;
   }
   
+
+  @media (max-width: 768px) {
+    .front {
+      font-size: .7em;
+    }
+  }

@@ -30,11 +30,19 @@ const Text = styled.div`
 const Content = styled.div`
     width: 50%;
     z-index: 2;
+    
+    @media (max-width: 768px){
+        width: 100%;
+    }
 `
 
 const Image = styled.img`
     width: 30vw;
     z-index: 2;
+
+    @media (max-width: 768px){
+        display: none;
+    }
 `
 
 const About = () => {

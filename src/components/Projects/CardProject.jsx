@@ -31,12 +31,20 @@ const CardText = styled.div`
 const Image = styled.img`
     width: 35vw;
     border-radius: 24px;
+
+    @media (max-width: 768px){
+        display: none;
+    }
 `
 
 const ButtonContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 2em 1em 0 0;
+
+    @media (max-width: 768px){
+        margin: 0;
+    }
 `
 
 const CardProject = (props) => {
