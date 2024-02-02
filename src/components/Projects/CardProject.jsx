@@ -8,7 +8,7 @@ const Title = styled.h3`
 `
 
 const Card = styled.div`
-    width: 36em;
+    width: 35em;
     display: flex;
     flex-direction: column;
     margin: 3em 3em;

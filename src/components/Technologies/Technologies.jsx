@@ -36,6 +36,8 @@ const Technologies = () => {
                 <i className="devicon-bootstrap-plain"></i>
                 <i className="devicon-photoshop-plain"></i>
                 <i className="devicon-illustrator-plain"></i>
+                <i class="devicon-git-plain"></i>
+                <i class="devicon-github-original"></i>
             </Container>
         </>
     )
