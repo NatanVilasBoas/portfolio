@@ -58,7 +58,7 @@ const About = () => {
                     <h3 style={{ fontSize: '40px' }}>Sobre mim</h3>
                     <p style={{ fontFamily: 'poppins', fontWeight: '300' }}>Sou programador e designer a mais de 2 anos. Tenho muito apreço pelas áreas por me darem a chance de criar coisas que realmente são úteis e que auxiliem meus clientes, criando projetos com um olhar mais detalhista envolto não apenas na usabilidade do projeto, mas na experiência do usuário e na qualidade do produto</p>
                 </Text>
-                <a href="./Curriculo.pdf" target="_blank">
+                <a href="Curriculo.pdf" download="Curriculo.pdf" target="_blank">
                     <Button text="currículo" color="#301E67" colorLight="#6a5bcd" padding="12px 32px"/>
                 </a>
             </Content>
