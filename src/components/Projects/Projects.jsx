@@ -4,6 +4,7 @@ import TitleSection from "../TitleSection/TitleSection";
 import calculadora from './Calculadora.png';
 import hotel from './Hotel.png';
 import tasks from './Tasks.png';
+import clima from './Clima.png';
 
 const Container = styled.section`
     display: flex;
@@ -38,6 +39,13 @@ const Projects = () => {
                     codeLink="https://github.com/NatanVilasBoas/Calculadora-Em-React"
                     link="https://calculadora-em-react-five.vercel.app/"
                     image={calculadora}
+                />
+                <CardProject
+                    title="Clima-App"
+                    text="Projeto que realiza consultas na API AccuWheater e traz informações sobre o clima de qualquer localidade"
+                    codeLink="https://github.com/NatanVilasBoas/clima-app/tree/master"
+                    link="https://clima-app-kohl-nine.vercel.app/"
+                    image={clima}
                 />
             </Container>
         </>
